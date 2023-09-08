@@ -65,7 +65,7 @@ func GetTexts(url, selector string) ([]string, error) {
 	return texts, nil
 }
 
-func wikiHandler(w http.ResponseWriter, r *http.Request) {
+func WikiHandler(w http.ResponseWriter, r *http.Request) {
 
 	urlwiki := "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87"
 

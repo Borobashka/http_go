@@ -5,7 +5,7 @@ import (
 //	"fmt"
 //	"log"
 	"net/http"
-	"github.com/Borobashka/http_go/handler"
+	"http_go-master/handler"
 //	"github.com/PuerkitoBio/goquery"
 )
 
@@ -13,6 +13,6 @@ import (
 
 	func main() {
 		http.HandleFunc("/users", UsersHandler)
-		http.HandleFunc("/wiki", wikiHandler)
+		http.HandleFunc("/wiki", WikiHandler)
 		http.ListenAndServe(portNumber, nil)
 	}
