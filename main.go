@@ -5,7 +5,7 @@ import (
 //	"fmt"
 //	"log"
 	"net/http"
-	"http_go-master/handler"
+	"github.com/Borobashka/http_go/v1"
 //	"github.com/PuerkitoBio/goquery"
 )
 
